@@ -1,0 +1,16 @@
+PODS:
+  - SugarEdges (0.1.0)
+
+DEPENDENCIES:
+  - SugarEdges (from `../`)
+
+EXTERNAL SOURCES:
+  SugarEdges:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SugarEdges: f2a9c66d7c444e10d3ca20cfb7a413ab2537b527
+
+PODFILE CHECKSUM: 0b9a78e95ffdd03c22c3538f36d8caa8df43d01c
+
+COCOAPODS: 1.3.1

@@ -5,7 +5,6 @@ target 'SugarEdges_Example' do
 
   target 'SugarEdges_Tests' do
     inherit! :search_paths
-
     
   end
 end

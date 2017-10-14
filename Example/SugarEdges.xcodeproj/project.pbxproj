@@ -7,34 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41974B7C1F921C6D006E8519 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8AF9A83D57BDE43F7646CDC8 /* Pods_SugarEdges_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C030FED658DFDC5C70CD4EFA /* Pods_SugarEdges_Tests.framework */; };
+		6981CC097D3CEAFD6300546F /* Pods_SugarEdges_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C030FED658DFDC5C70CD4EFA /* Pods_SugarEdges_Tests.framework */; };
 		FC46D514D13A98917E08FCC3 /* Pods_SugarEdges_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7E2DDD24196F0C9AE20D2C /* Pods_SugarEdges_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+		41974B751F921BA4006E8519 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = SugarEdges;
+			remoteInfo = SugarEdges_Example;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1B7E2DDD24196F0C9AE20D2C /* Pods_SugarEdges_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SugarEdges_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EC0D00DF211E3E4DBFEAC87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2EC0D00DF211E3E4DBFEAC87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		311380DB6A011AE0F6D61106 /* Pods-SugarEdges_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarEdges_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugarEdges_Example/Pods-SugarEdges_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3931975947A3D98BF4851E0B /* SugarEdges.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SugarEdges.podspec; path = ../SugarEdges.podspec; sourceTree = "<group>"; };
+		3931975947A3D98BF4851E0B /* SugarEdges.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SugarEdges.podspec; path = ../SugarEdges.podspec; sourceTree = "<group>"; };
 		3C1F476736F4E912D692DE17 /* Pods-SugarEdges_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarEdges_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugarEdges_Tests/Pods-SugarEdges_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		40E55143A291470FF2875A4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		40E55143A291470FF2875A4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4148F00DB6F44AF38FEEC000 /* Pods-SugarEdges_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarEdges_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugarEdges_Tests/Pods-SugarEdges_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		41974B701F921BA4006E8519 /* SugarEdges_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarEdges_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE9C08D2436B87699388766 /* Pods-SugarEdges_Example-SugarEdges_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarEdges_Example-SugarEdges_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugarEdges_Example-SugarEdges_Tests/Pods-SugarEdges_Example-SugarEdges_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5CAAF3220A0C374625A756C6 /* Pods-SugarEdges_Example-SugarEdges_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarEdges_Example-SugarEdges_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugarEdges_Example-SugarEdges_Tests/Pods-SugarEdges_Example-SugarEdges_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SugarEdges_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarEdges_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,27 +45,27 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* SugarEdges_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarEdges_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8E1B9098385A0F8AB3E216BC /* Pods-SugarEdges_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarEdges_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugarEdges_Example/Pods-SugarEdges_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C030FED658DFDC5C70CD4EFA /* Pods_SugarEdges_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SugarEdges_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBACD03998A46B1EA6A6C134 /* Pods_SugarEdges_Example_SugarEdges_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SugarEdges_Example_SugarEdges_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		41974B6D1F921BA4006E8519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6981CC097D3CEAFD6300546F /* Pods_SugarEdges_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FC46D514D13A98917E08FCC3 /* Pods_SugarEdges_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AF9A83D57BDE43F7646CDC8 /* Pods_SugarEdges_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* SugarEdges_Example.app */,
-				607FACE51AFB9204008FA782 /* SugarEdges_Tests.xctest */,
+				41974B701F921BA4006E8519 /* SugarEdges_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			children = (
 				1B7E2DDD24196F0C9AE20D2C /* Pods_SugarEdges_Example.framework */,
 				C030FED658DFDC5C70CD4EFA /* Pods_SugarEdges_Tests.framework */,
+				CBACD03998A46B1EA6A6C134 /* Pods_SugarEdges_Example_SugarEdges_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +159,8 @@
 				8E1B9098385A0F8AB3E216BC /* Pods-SugarEdges_Example.release.xcconfig */,
 				4148F00DB6F44AF38FEEC000 /* Pods-SugarEdges_Tests.debug.xcconfig */,
 				3C1F476736F4E912D692DE17 /* Pods-SugarEdges_Tests.release.xcconfig */,
+				5CAAF3220A0C374625A756C6 /* Pods-SugarEdges_Example-SugarEdges_Tests.debug.xcconfig */,
+				4CE9C08D2436B87699388766 /* Pods-SugarEdges_Example-SugarEdges_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,6 +168,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		41974B6F1F921BA4006E8519 /* SugarEdges_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41974B771F921BA4006E8519 /* Build configuration list for PBXNativeTarget "SugarEdges_Tests" */;
+			buildPhases = (
+				8F269A8B46430A3FFE07F7C8 /* [CP] Check Pods Manifest.lock */,
+				41974B6C1F921BA4006E8519 /* Sources */,
+				41974B6D1F921BA4006E8519 /* Frameworks */,
+				41974B6E1F921BA4006E8519 /* Resources */,
+				CCF389D26D3F00F3C3C0E057 /* [CP] Embed Pods Frameworks */,
+				9600E40BDEA4B328B0B1EC3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41974B761F921BA4006E8519 /* PBXTargetDependency */,
+			);
+			name = SugarEdges_Tests;
+			productName = SugarEdges_Tests;
+			productReference = 41974B701F921BA4006E8519 /* SugarEdges_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		607FACCF1AFB9204008FA782 /* SugarEdges_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SugarEdges_Example" */;
@@ -182,45 +209,25 @@
 			productReference = 607FACD01AFB9204008FA782 /* SugarEdges_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* SugarEdges_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SugarEdges_Tests" */;
-			buildPhases = (
-				467ACFAD97186CC954E931CA /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				9561A7080D1232BC6195505C /* [CP] Embed Pods Frameworks */,
-				C4C29AC47C5FAE3BC2FF31F9 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = SugarEdges_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* SugarEdges_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					41974B6F1F921BA4006E8519 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = M7D34XPBZX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -238,12 +245,19 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* SugarEdges_Example */,
-				607FACE41AFB9204008FA782 /* SugarEdges_Tests */,
+				41974B6F1F921BA4006E8519 /* SugarEdges_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		41974B6E1F921BA4006E8519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,13 +265,6 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +286,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarEdges_Example/Pods-SugarEdges_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		467ACFAD97186CC954E931CA /* [CP] Check Pods Manifest.lock */ = {
+		8F269A8B46430A3FFE07F7C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,19 +304,19 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9561A7080D1232BC6195505C /* [CP] Embed Pods Frameworks */ = {
+		9600E40BDEA4B328B0B1EC3B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarEdges_Tests/Pods-SugarEdges_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarEdges_Tests/Pods-SugarEdges_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AFCE09E315094AC2167250FE /* [CP] Check Pods Manifest.lock */ = {
@@ -330,19 +337,19 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C4C29AC47C5FAE3BC2FF31F9 /* [CP] Copy Pods Resources */ = {
+		CCF389D26D3F00F3C3C0E057 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarEdges_Tests/Pods-SugarEdges_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarEdges_Tests/Pods-SugarEdges_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FEA642E7957E593C8E371DFF /* [CP] Embed Pods Frameworks */ = {
@@ -366,6 +373,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		41974B6C1F921BA4006E8519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41974B7C1F921C6D006E8519 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,21 +390,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+		41974B761F921BA4006E8519 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* SugarEdges_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+			targetProxy = 41974B751F921BA4006E8519 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,6 +420,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		41974B781F921BA4006E8519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4148F00DB6F44AF38FEEC000 /* Pods-SugarEdges_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M7D34XPBZX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "acecilia.SugarEdges-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugarEdges_Example.app/SugarEdges_Example";
+			};
+			name = Debug;
+		};
+		41974B791F921BA4006E8519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C1F476736F4E912D692DE17 /* Pods-SugarEdges_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7D34XPBZX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "acecilia.SugarEdges-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugarEdges_Example.app/SugarEdges_Example";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -542,47 +601,18 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4148F00DB6F44AF38FEEC000 /* Pods-SugarEdges_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C1F476736F4E912D692DE17 /* Pods-SugarEdges_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		41974B771F921BA4006E8519 /* Build configuration list for PBXNativeTarget "SugarEdges_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41974B781F921BA4006E8519 /* Debug */,
+				41974B791F921BA4006E8519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SugarEdges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -597,15 +627,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SugarEdges_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

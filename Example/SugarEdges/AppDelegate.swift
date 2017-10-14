@@ -1,7 +1,4 @@
 //
-//  AppDelegate.swift
-//  SugarEdges
-//
 //  Created by acecilia on 10/14/2017.
 //  Copyright (c) 2017 acecilia. All rights reserved.
 //

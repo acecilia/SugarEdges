@@ -1,29 +1,50 @@
+//
+//  Created by acecilia on 10/14/2017.
+//  Copyright (c) 2017 acecilia. All rights reserved.
+//
+
 import UIKit
 import XCTest
 import SugarEdges
 
 class Tests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testCompleteInit() {
+        let value: CGFloat = 10
+        
+        let normalInit: UIEdgeInsets = UIEdgeInsets(top: value, left: value, bottom: value, right: value)
+        let sugarEdgesInit: UIEdgeInsets = [.top: value, .left: value, .bottom: value, .right: value]
+        
+        XCTAssert(normalInit == sugarEdgesInit)
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    func testAllInit() {
+        let value: CGFloat = 10
+        
+        let normalInit: UIEdgeInsets = UIEdgeInsets(top: value, left: value, bottom: value, right: value)
+        let sugarEdgesInit: UIEdgeInsets = [.all: value]
+        
+        XCTAssert(normalInit == sugarEdgesInit)
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testPairsInit() {
+        let hValue: CGFloat = 10
+        let vValue: CGFloat = 20
+        
+        let normalInit: UIEdgeInsets = UIEdgeInsets(top: vValue, left: hValue, bottom: vValue, right: hValue)
+        let sugarEdgesInit: UIEdgeInsets = [.top + .bottom: vValue, .left + .right: hValue]
+        
+        XCTAssert(normalInit == sugarEdgesInit)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
+    func testOverridingInit() {
+        let value1: CGFloat = 10
+        let value2: CGFloat = 20
+        
+        let normalInit: UIEdgeInsets = UIEdgeInsets(top: value1, left: value1, bottom: value1, right: value2)
+        let sugarEdgesInit: UIEdgeInsets = [.all: value1, .right: value2]
+        
+        XCTAssert(normalInit == sugarEdgesInit)
     }
     
 }
