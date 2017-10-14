@@ -1,15 +1,30 @@
 # SugarEdges
+Syntactic sugar for init UIEdgeInsets and other similar objects
 
-[![CI Status](http://img.shields.io/travis/acecilia/SugarEdges.svg?style=flat)](https://travis-ci.org/acecilia/SugarEdges)
-[![Version](https://img.shields.io/cocoapods/v/SugarEdges.svg?style=flat)](http://cocoapods.org/pods/SugarEdges)
-[![License](https://img.shields.io/cocoapods/l/SugarEdges.svg?style=flat)](http://cocoapods.org/pods/SugarEdges)
-[![Platform](https://img.shields.io/cocoapods/p/SugarEdges.svg?style=flat)](http://cocoapods.org/pods/SugarEdges)
+## Usage
+Remember to import SugarEdges in the top of the file:
+
+```swift
+import SugarEdges
+```
+
+Then, instead of initiating like this:
+
+```swift
+let insets: UIEdgeInsets = UIEdgeInsets(top: 20, left: 10, bottom: 0, right: 10)
+```
+
+You can do it like this:
+
+```swift
+let insets: UIEdgeInsets = [.top: 20, .left + .right: 10]
+```
+
+If you want to use this kind of initialization for other types, just make them conform to the ```ExpressibleByEdgesDictionaryLiteral``` protocol.
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -22,7 +37,7 @@ pod 'SugarEdges'
 
 ## Author
 
-acecilia, a.cecilia.luque@gmail.com
+Andres Cecilia Luque (acecilia), a.cecilia.luque@gmail.com
 
 ## License
 
