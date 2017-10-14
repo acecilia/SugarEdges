@@ -1,8 +1,8 @@
 # SugarEdges
-Syntactic sugar for init UIEdgeInsets and other similar objects
+Syntactic sugar for init UIEdgeInsets and other similar objects.
 
 ## Usage
-Remember to import SugarEdges in the top of the file:
+Remember to import SugarEdges at the top of the file:
 
 ```swift
 import SugarEdges
