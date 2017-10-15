@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SugarEdges'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Syntactic sugar for init UIEdgeInsets and other similar objects'
 
   s.description      = <<-DESC
@@ -13,6 +13,6 @@ This framework provides the protocol ExpressibleByEdgesDictionaryLiteral in orde
   s.source           = { :git => 'https://github.com/acecilia/SugarEdges.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'SugarEdges/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   s.frameworks = 'UIKit'
 end
