@@ -1,6 +1,6 @@
 {
   "name": "SugarEdges",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "Syntactic sugar for init UIEdgeInsets and other similar objects",
   "description": "This framework provides the protocol ExpressibleByEdgesDictionaryLiteral in order to be used with other custom types.",
   "homepage": "https://github.com/acecilia/SugarEdges",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/acecilia/SugarEdges.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
