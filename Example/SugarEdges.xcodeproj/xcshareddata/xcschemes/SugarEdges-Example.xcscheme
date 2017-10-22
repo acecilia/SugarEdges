@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
+               BlueprintIdentifier = "41974B6F1F921BA4006E8519"
                BuildableName = "SugarEdges_Tests.xctest"
                BlueprintName = "SugarEdges_Tests"
                ReferencedContainer = "container:SugarEdges.xcodeproj">
@@ -47,7 +47,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
+               BlueprintIdentifier = "41974B6F1F921BA4006E8519"
                BuildableName = "SugarEdges_Tests.xctest"
                BlueprintName = "SugarEdges_Tests"
                ReferencedContainer = "container:SugarEdges.xcodeproj">

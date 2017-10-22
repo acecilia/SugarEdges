@@ -9,7 +9,7 @@ This framework provides the protocol ExpressibleByEdgesDictionaryLiteral in orde
 
   s.homepage         = 'https://github.com/acecilia/SugarEdges'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Andres Cecilia Luque' => 'a.cecilia.luque@gmail.com' }
+  s.author           = { 'Andrés Cecilia Luque' => 'a.cecilia.luque@gmail.com' }
   s.source           = { :git => 'https://github.com/acecilia/SugarEdges.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
