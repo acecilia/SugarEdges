@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SugarEdges'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Syntactic sugar for init UIEdgeInsets and other similar objects'
 
   s.description      = <<-DESC
