@@ -1,5 +1,5 @@
 PODS:
-  - SugarEdges (0.0.4)
+  - SugarEdges (0.0.5)
 
 DEPENDENCIES:
   - SugarEdges (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SugarEdges: e8592af92c1e12cabaf60871c78a3bdb59393c15
+  SugarEdges: fdbdaaa6fd0e9af9d0e9500db859de84e31958cc
 
 PODFILE CHECKSUM: 0b9a78e95ffdd03c22c3538f36d8caa8df43d01c
 
