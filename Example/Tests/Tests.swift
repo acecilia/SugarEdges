@@ -8,7 +8,6 @@ import XCTest
 import SugarEdges
 
 class Tests: XCTestCase {
-    
     func testCompleteInit() {
         let value: CGFloat = 10
         
